@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kết thúc</title>
+	<link rel="shortcut icon" href="../static/images/khac/logo-dhsd.png">
+	<style type="text/css">
+	<!--
+		body {
+		  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		  text-align: center;
+		  background-image:url(../static/images/khac/background.jpg);
+		  background-size:cover;
+		  color:rgb(0, 0, 255);
+		  font-size:18px;
+		}
+		.center-on-page {
+		  position: absolute;
+		  top:25%;
+		  left: 50%;
+		  transform: translate(-50%,-50%);
+		}
+		h1 {
+		  text-align: center;
+		}
+
+		button{
+		  -webkit-appearance: none;
+		  -moz-appearance: none;
+		  -ms-appearance: none;
+		  appearance: none;
+		  outline: 0;
+		  box-shadow: none;
+		  border: 0 !important;
+		  background:#990066;
+		  background-image: none;
+		  width: 100%;
+		  font-weight:bold;
+		  font-size:16px;
+		  height: 40px;
+		  margin: 0;
+		  margin-top: 20px;
+		  color: #fff;
+		  cursor: pointer;
+		  border-radius: .25em;
+		}
+		button:hover{
+		font-size:18px;
+		background:#990000;
+		color:#FFFF99;
+		}
+	-->
+    </style>
+</head>
+<body>
+	<font style="color:#990000; font-weight:bold; font-size:21px;">Chương trình kết thúc. Cảm ơn bạn !!!</font>
+	<div class="center-on-page">  
+	<h1>Trợ lí ảo trường Đại học Sao Đỏ </h1>
+	<form class="form-inline" action="{{ url_for('result') }}">
+    	<button type="submit" class="btn">Tiếp tục</button>
+	</form>
+	</div>
+</body>
+</html>
